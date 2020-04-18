@@ -1,7 +1,7 @@
 name: Pavel Šimerda
 headline: Software Developer
 location: Prague
-homepage: pavlix.net
+homepage: simerda.eu
 email:
     username: business
     domain: pavlix.net
@@ -22,16 +22,25 @@ summary:
 experience:
     - position: Software Developer
       descrription: |
-          Independent professional working with software developers. I work
-          with a wide range of companies from small business to
-          corporations.
-          # Software developer and trainer specialized in operating systems engineering.
+          Independent software developer and trainer specialized in
+          operating systems engineering.
       from: 2008-03
     - position: Software Engineer
       company: Red Hat
-      # Open source developer and maintainer in computer networking including IPv6/DNSSEC.
+      description: |
+          Open source software developer, package maintainer and innovator.
+          Specialized in computer networking standards including IPv6 and
+          DNSSEC among others.
       from: 2012-05
       to: 2017-04
+    - position: Software Developer
+      description: |
+          Software developer, system administrator and innovator. Converted
+          developers from PHP to Python, from MySQL to PostgreSQL, from
+          date based backups to Subversion, then from Subversion to Git and
+          more.
+      from: 2003-09
+      to: 2008-02
     - position: Mathematics and Computer Science Tutor
       description: |
           Private lessons for children and adults. I gave lessons in
@@ -39,12 +48,6 @@ experience:
           overlap to other topics.
       from: 2001-05
       to: 2015-11
-    - position: Software Developer
-      description: |
-          Software developer, system administrator and innovator. Converted
-          developers from PHP to Python, from MySQL to PostgreSQL, from
-          date based backups to Subversion, then from Subversion to Git and
-          more.
 volunteering:
     - Coding for kids
     - Mentoring teachers
