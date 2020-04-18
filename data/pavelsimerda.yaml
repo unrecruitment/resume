@@ -1,0 +1,88 @@
+name: Pavel Šimerda
+headline: Software Developer
+location: Prague
+homepage: pavlix.net
+email:
+    username: business
+    domain: pavlix.net
+summary:
+    - |
+        Software developer enjoying *operating systems* engineering,
+        integration and testing. I am currently focused on the *Linux kernel*
+        internals and instrumentation. I help software developers to keep
+        maximum control over their systems. I use *C* and *Rust* as
+        system-level programming languages and *perf*, *ftrace* and *eBPF* as
+        instrumentation tools.
+
+    - |
+        I help children and beginners to start with software development
+        using *Scratch* and *Python*. I'm using *Pandas* for data analysis tasks
+        and would like to explore *Julia* programming language. I'm working
+        with *PostgreSQL* database and replication.
+experience:
+    - position: Software Developer
+      descrription: |
+          Independent professional working with software developers. I work
+          with a wide range of companies from small business to
+          corporations.
+          # Software developer and trainer specialized in operating systems engineering.
+      from: 2008-03
+    - position: Software Engineer
+      company: Red Hat
+      # Open source developer and maintainer in computer networking including IPv6/DNSSEC.
+      from: 2012-05
+      to: 2017-04
+    - position: Mathematics and Computer Science Tutor
+      description: |
+          Private lessons for children and adults. I gave lessons in
+          mathematics of all levels and computer science plus occasional
+          overlap to other topics.
+      from: 2001-05
+      to: 2015-11
+    - position: Software Developer
+      description: |
+          Software developer, system administrator and innovator. Converted
+          developers from PHP to Python, from MySQL to PostgreSQL, from
+          date based backups to Subversion, then from Subversion to Git and
+          more.
+volunteering:
+    - Coding for kids
+    - Mentoring teachers
+    - Open source advocacy
+skills:
+    - name: UNIX / Linux Ecosystem
+      detail: |
+          Red Hat and SUSE enterprise (RHEL, SLE). Community distros
+          (openSUSE, Gentoo, Fedora, OpenWRT, FreeBSD).
+      level: 9
+    - name: Microsoft Ecosystem
+      detail: |
+          I'm not a big fan of closed source operating system. I want full
+          access.
+      level: 2
+    - name: Software Development
+      detail: |
+          C, Python and more (Linux kernel & APIs, embedded, Django, QA).
+      level: 9
+    - name: Database Systems
+      detail: |
+          PostgreSQL, transaction isolation, locking mechanisms,
+          troubleshooting, replication, backup & recovery.
+      level: 8
+    - name: DevOps & Automation
+      detail: |
+          Source Code Management (Git, Quilt, diff, patch), distribution
+          (RPM, ebuilds, Koji, Open Build Service, Vagrant, Docker.),
+          configuration (Ansible).
+      level: 8
+    - name: Network Configuration
+      detail: |
+          Linux Network Stack, Routing, NAT, Firewall, OSPF, BGP, OpenWRT, Mikrotik Router OS.
+      level: 9
+    - name: Web Frontend
+      detail: |
+          NodeJS, React. Occasionally learning but not among my main goals.
+      level: 3
+notice: |
+    Receiving this document does not constitute a job application. Do not
+    distribute this document to third parties without my prior permission.
