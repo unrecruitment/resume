@@ -5,20 +5,18 @@ homepage: simerda.eu
 email:
     username: business
     domain: pavlix.net
-summary:
-    - |
-        Software developer enjoying *operating systems* engineering,
-        integration and testing. I am currently focused on the *Linux kernel*
-        internals and instrumentation. I help software developers to keep
-        maximum control over their systems. I use *C* and *Rust* as
-        system-level programming languages and *perf*, *ftrace* and *eBPF* as
-        instrumentation tools.
+summary: | 
+    Software developer enjoying *operating systems* engineering,
+    integration and testing. I am currently focused on the *Linux kernel*
+    internals and instrumentation. I help software developers to keep
+    maximum control over their systems. I use *C* and *Rust* as
+    system-level programming languages and *perf*, *ftrace* and *eBPF* as
+    instrumentation tools.
 
-    - |
-        I help children and beginners to start with software development
-        using *Scratch* and *Python*. I'm using *Pandas* for data analysis tasks
-        and would like to explore *Julia* programming language. I'm working
-        with *PostgreSQL* database and replication.
+    I help children and beginners to start with software development using
+    *Scratch* and *Python*. I'm using *Pandas* for data analysis tasks and
+    would like to explore *Julia* programming language. I'm working with
+    *PostgreSQL* database and replication.
 experience:
     - position: Software Developer
       descrription: |

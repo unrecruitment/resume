@@ -29,7 +29,7 @@ class Resume:
         self.add(f"{self.data['headline']}")
         self.add(f"{self.data['email']['username']}@{self.data['email']['domain']}")
         self.add(f"{self.data['homepage']}")
-        for p in self.data['summary']:
+        for p in self.data['summary'].split('\n\n'):
             self.add(p)
         for work in self.data['experience']:
             self.add(f"{work['position']}")
