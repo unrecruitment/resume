@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
 
-import subprocess
+import sys
 
 import ruamel.yaml
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 
 class Resume:
-    def __init__(self, name):
+    def __init__(self, source, target):
         # get data
         yaml = ruamel.yaml.YAML()
-        with open(f"data/{name}.yaml") as stream:
+        with open(source) as stream:
             self.data = yaml.load(stream)
         # start document
-        self.output = f"output/{name}.pdf"
-        self.doc = SimpleDocTemplate(self.output)
+        self.doc = SimpleDocTemplate(target)
         # items
         self.items = []
 
@@ -48,6 +47,5 @@ class Resume:
         self.doc.build(self.items)
 
 if __name__ == '__main__':
-    resume = Resume('pavelsimerda')
+    resume = Resume(*sys.argv[1:])
     resume.build()
-    subprocess.run(['xdg-open', resume.output])
