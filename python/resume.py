@@ -5,6 +5,7 @@ import sys
 import ruamel.yaml
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
+import datetime
 
 class Resume:
     def __init__(self, source, target):
@@ -36,7 +37,14 @@ class Resume:
         for work in self.data['experience']:
             self.add(f"{work['position']}")
             if 'from' in work:
-                self.add(f"({work['from']} – {work.get('to', 'now')})")
+                date_from = datetime.datetime.strptime(work['from'], '%Y-%m')
+                date_from = date_from.date().strftime("%b %Y")
+                if 'to' in work:
+                    date_to = datetime.datetime.strptime(work['to'], '%Y-%m')
+                    date_to = date_to.date().strftime("%b %Y")
+                else:
+                    date_to = 'now'
+                self.add(f"({date_from} – {date_to})")
             if 'description' in work:
                 self.add(f"{work['description']}")
             self.add("\xa0")
