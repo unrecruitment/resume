@@ -1,22 +1,23 @@
 name: Pavel Šimerda
-headline: Software Developer
+headline: Developer
 location: Prague
 homepage: simerda.eu
 email:
     username: business
     domain: pavlix.net
 summary: | 
-    Software developer enjoying *operating systems* engineering,
-    integration and testing. I am currently focused on the *Linux kernel*
-    internals and instrumentation. I help software developers to keep
-    maximum control over their systems. I use *C* and *Rust* as
-    system-level programming languages and *perf*, *ftrace* and *eBPF* as
-    instrumentation tools.
+    Software developer enjoying embedded *operating systems* development
+    and network devices. I'm invested in *Linux* but any innovation is
+    also welcome. I'm a *C* programmer with *Python* experience also
+    interested in *Rust*, modern *C++* and *Julia*.
 
-    I help children and beginners to start with software development using
-    *Scratch* and *Python*. I'm using *Pandas* for data analysis tasks and
-    would like to explore *Julia* programming language. I'm working with
-    *PostgreSQL* database and replication.
+    In the *Linux* environment I work with *eBPF* for various purposes from
+    network to kernel-level orchestration and latency tracking. I'm
+    interested in concurrent and real-time applications.
+
+    Apart from that I teach *mathematics* and *computer science* to anyone
+    from beginners to university students. I use *Scratch* and other modern
+    tools for the purpose.
 experience:
     - position: Software Developer
       description: |
@@ -65,6 +66,12 @@ skills:
       detail: |
           C, Python and more (Linux kernel & APIs, embedded, Django, QA).
       level: 0.9
+    - name: Electronics
+      detail: |
+          I'm still learning a lot of details in digital communication and
+          hardware. I wrote my first GPIO based bitbang driver for a
+          single-pin bus recently.
+      level: 0.4
     - name: Database Systems
       detail: |
           PostgreSQL, transaction isolation, locking mechanisms,
@@ -75,14 +82,16 @@ skills:
           Source Code Management (Git, Quilt, diff, patch), distribution
           (RPM, ebuilds, Koji, Open Build Service, Vagrant, Docker.),
           configuration (Ansible).
-      level: 0.8
+      level: 0.7
     - name: Network Configuration
       detail: |
-          Linux Network Stack, Routing, NAT, Firewall, OSPF, BGP, OpenWRT, Mikrotik Router OS.
+          Linux Network Stack, Routing, NAT, Firewall, OSPF, BGP, OpenWRT,
+          Mikrotik Router OS.
       level: 0.9
     - name: Web Frontend
       detail: |
-          NodeJS, React. Occasionally learning but not among my main goals.
+          NodeJS, React. Occasionally learning but not among my main goals
+          as long as I have more hardware related stuff to work on.
       level: 0.3
 notice: |
     Receiving this document does not constitute a job application. Do not
