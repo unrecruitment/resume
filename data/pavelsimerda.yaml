@@ -1,10 +1,10 @@
 name: Pavel Šimerda
 headline: Developer
 location: Prague
-homepage: simerda.eu
-email:
-    username: business
-    domain: pavlix.net
+homepage: http://simerda.eu/
+#email:
+#    username: business
+#    domain: pavlix.net
 summary: | 
     Software developer enjoying embedded *operating systems* development
     and network devices. I'm invested in *Linux* but any innovation is
