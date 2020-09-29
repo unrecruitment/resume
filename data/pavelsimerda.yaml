@@ -66,12 +66,12 @@ skills:
       detail: |
           C, Python and more (Linux kernel & APIs, embedded, Django, QA).
       level: 0.9
-    - name: Electronics
+    - name: Hardware & Electronics
       detail: |
           I'm still learning a lot of details in digital communication and
           hardware. I wrote my first GPIO based bitbang driver for a
           single-pin bus recently.
-      level: 0.4
+      level: 0.5
     - name: Database Systems
       detail: |
           PostgreSQL, transaction isolation, locking mechanisms,
