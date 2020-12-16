@@ -54,8 +54,8 @@ volunteering:
 skills:
     - name: UNIX / Linux Ecosystem
       detail: |
-          Red Hat and SUSE enterprise (RHEL, SLE). Community distros
-          (openSUSE, Gentoo, Fedora, OpenWRT, FreeBSD).
+          SUSE and Red Hat (IBM) enterprise (RHEL, SLE). Community distros
+          (openSUSE, Gentoo, OpenWRT, Fedora, FreeBSD).
       level: 0.9
     - name: Microsoft Ecosystem
       detail: |
