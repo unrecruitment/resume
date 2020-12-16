@@ -69,9 +69,9 @@ skills:
     - name: Hardware & Electronics
       detail: |
           I'm still learning a lot of details in digital communication and
-          hardware. I wrote my first GPIO based bitbang driver for a
-          single-pin bus recently.
-      level: 0.5
+          hardware. I wrote my first bitbang drivers and did some small
+          hardware automation tasks recently.
+      level: 0.6
     - name: Database Systems
       detail: |
           PostgreSQL, transaction isolation, locking mechanisms,
