@@ -13,7 +13,7 @@ import datetime
 pdfmetrics.registerFont(TTFont('dejavu-sans', '/usr/share/fonts/truetype/DejaVuSans.ttf'))
 pdfmetrics.registerFont(TTFont('dejavu-sans-bold', '/usr/share/fonts/truetype/DejaVuSans-Bold.ttf'))
 
-paragraph = ParagraphStyle(name="Text", fontName="dejavu-sans")
+paragraph = ParagraphStyle(name="Text", fontName="dejavu-sans", fontSize=8)
 headline = ParagraphStyle(name="Headline", fontName="dejavu-sans-bold")
 
 class Resume:
@@ -60,6 +60,7 @@ class Resume:
         for item in self.data['volunteering']:
             self.add(f"{item}")
             self.add("\xa0")
+        self.add(platypus.FrameBreak())
         for skill in self.data['skills']:
             self.add(f"{skill['name']}", style=headline)
             self.add(f"{skill['detail']}")
