@@ -58,19 +58,10 @@ skills:
           data structures, locking mechanisms, database transactions,
           replication, recovery (Linux, PostgreSQL).
       level: 0.9
-    - name: UNIX / Linux Ecosystem
+    - name: Network layer development
       detail: |
-          SUSE and Red Hat (IBM) enterprise (RHEL, SLE). Community distros
-          (openSUSE, Gentoo, OpenWRT, Fedora, FreeBSD).
-      level: 0.9
-    - name: Microsoft Ecosystem
-      detail: |
-          I'm not a big fan of closed source operating system. I want full
-          access.
-      level: 0.1
-    - name: Software Development
-      detail: |
-          Rust, C, C++, Python and more (Linux kernel & APIs, embedded, Django, QA).
+          Network device drivers, L2/L3/L4 protocols, switching, routing,
+          tunneling, optimization, eBPF/XDP based applications.
       level: 0.9
     - name: Hardware & Electronics
       detail: |
@@ -78,22 +69,33 @@ skills:
           hardware. I wrote my first bitbang drivers and did some small
           hardware automation tasks recently.
       level: 0.6
+    - name: UNIX / Linux Ecosystem
+      detail: |
+          SUSE and Red Hat (IBM) enterprise (RHEL, SLE). Community distros
+          (openSUSE, Gentoo, OpenWRT, Fedora, FreeBSD).
+      level: 0.9
+    - name: Microsoft Ecosystem
+      detail: |
+          Not a big fan of proprietary operating system. I want full
+          control over the system and access to its internals.
+      level: 0.1
+    - name: Programming languages
+      detail: |
+          I love machine code, and so I use Rust, C, C++ and might want to
+          try Julia and maybe Haskell. I'm still fluent with Python and I
+          can program in crazy environments like Bash.
+      level: 0.9
     - name: DevOps & Automation
       detail: |
-          Source Code Management (Git, Quilt, diff, patch), distribution
-          (RPM, ebuilds, Koji, Open Build Service, Vagrant, Docker.),
-          configuration (Ansible).
-      level: 0.7
-    - name: Network Configuration
-      detail: |
-          Linux Network Stack, Routing, NAT, Firewall, OSPF, BGP, OpenWRT,
-          Mikrotik Router OS.
-      level: 0.9
+          Mainly to support developers and development for my preferred
+          environments (Git, Quilt, diff, patch, RPM, Vagrant, Docker,
+          Ansible).
+      level: 0.8
     - name: Web Frontend
       detail: |
           NodeJS, React. Occasionally learning but not among my main goals
           as long as I have more hardware related stuff to work on.
-      level: 0.3
+      level: 0.2
 notice: |
     [Legal Notice] Receiving this document does not constitute a job application. Do not
     distribute this document without an explicit consent.
