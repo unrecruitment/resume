@@ -52,6 +52,12 @@ volunteering:
     - Mentoring teachers
     - Open source advocacy
 skills:
+    - name: Parallel computing
+      detail: |
+          Operating systems development, parallel applications, lock-free
+          data structures, locking mechanisms, database transactions,
+          replication, recovery (Linux, PostgreSQL).
+      level: 0.9
     - name: UNIX / Linux Ecosystem
       detail: |
           SUSE and Red Hat (IBM) enterprise (RHEL, SLE). Community distros
@@ -64,7 +70,7 @@ skills:
       level: 0.1
     - name: Software Development
       detail: |
-          C, Python and more (Linux kernel & APIs, embedded, Django, QA).
+          Rust, C, C++, Python and more (Linux kernel & APIs, embedded, Django, QA).
       level: 0.9
     - name: Hardware & Electronics
       detail: |
@@ -72,11 +78,6 @@ skills:
           hardware. I wrote my first bitbang drivers and did some small
           hardware automation tasks recently.
       level: 0.6
-    - name: Database Systems
-      detail: |
-          PostgreSQL, transaction isolation, locking mechanisms,
-          troubleshooting, replication, backup & recovery.
-      level: 0.8
     - name: DevOps & Automation
       detail: |
           Source Code Management (Git, Quilt, diff, patch), distribution
