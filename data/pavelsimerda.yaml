@@ -1,50 +1,53 @@
 name: Pavel Šimerda
-headline: Developer
+headline: Software Developer
 location: Prague
 homepage: http://simerda.eu/
 #email:
 #    username: business
 #    domain: pavlix.net
-summary: | 
-    Software developer enjoying embedded *operating systems* development
-    and network devices. I'm invested in *Linux* but any innovation is
-    also welcome. I'm a *C* programmer with *Python* experience also
-    interested in *Rust*, modern *C++* and *Julia*.
+summary: |
+    Freelance software developer. Rust and Haskell enthusiast.  Working
+    with embedded operating systems and network devices. Astounded by eBPF
+    debugging and performance profiling in Linux. Training anyone from
+    young children to senior developers.
 
-    In the *Linux* environment I work with *eBPF* for various purposes from
-    network to kernel-level orchestration and latency tracking. I'm
-    interested in concurrent and real-time applications.
-
-    Apart from that I teach *mathematics* and *computer science* to anyone
-    from beginners to university students. I use *Scratch* and other modern
-    tools for the purpose.
+    In the upcoming years I am going to work with embedded software
+    companies that understand the value of safe programming and consider
+    switching from C and C++ to Rust. At the same time I can still provide
+    support for C and C++ developers as I did before.
 experience:
-    - position: Software Developer
+    - position: Freelance Developer & Consultant
       description: |
-          Independent software developer and trainer specialized in
-          operating systems engineering.
+          I've been through different roles and projects before I found my
+          niche. Finally I fell in love with programming languages that
+          translate to machine code and with operating systems code. The
+          “year of change” somewhat accelerated my transition.
       from: 2008-03
-    - position: Software Engineer
+    - position: Software Engineer & Maintainer
       company: Red Hat
       description: |
-          Open source software developer, package maintainer and innovator.
-          Specialized in computer networking standards including IPv6 and
-          DNSSEC among others.
+          My personal goal was to fix various NetworkManager design flaws
+          and make it usable in server environment as well as in
+          development and network engineering setups. At that time I met
+          network developers from SUSE and learned about wicked, their
+          alternative to NetworkManager and invited them to cooperate.
       from: 2012-05
       to: 2017-04
-    - position: Software Developer
+    - position: Temporary IT Jobs
       description: |
-          Software developer, system administrator and innovator. Converted
-          developers from PHP to Python, from MySQL to PostgreSQL, from
-          date based backups to Subversion, then from Subversion to Git and
-          more.
+          I started web development as a volunteer webmaster of the school
+          website. Soon I started working with young entrepreneurs as well
+          as former students. I was an active innovator since the beginning
+          of my career. I introduced Python, PostgreSQL, Subversion and
+          later Git to my co-workers and participated in product
+          architecture discussions.
       from: 2003-09
       to: 2008-02
-    - position: Mathematics and Computer Science Tutor
+    - position: Mathematics and CS Tutor
       description: |
-          Private lessons for children and adults. I gave lessons in
-          mathematics of all levels and computer science plus occasional
-          overlap to other topics.
+          At times my friends struggled to grasp mathematical and logical
+          concepts in various subjects at school. Later it became part of
+          my business to tutor everyone from young children to pensioners.
       from: 2001-05
       to: 2015-11
 volunteering:
@@ -65,14 +68,14 @@ skills:
       level: 0.9
     - name: Hardware & Electronics
       detail: |
-          I'm still learning a lot of details in digital communication and
-          hardware. I wrote my first bitbang drivers and did some small
-          hardware automation tasks recently.
+          Interested in digital communications, I write hardware drivers
+          and user-space software for Linux. I've started to use Rust
+          for industrial software development.
       level: 0.6
     - name: UNIX / Linux Ecosystem
       detail: |
           SUSE and Red Hat (IBM) enterprise (RHEL, SLE). Community distros
-          (openSUSE, Gentoo, OpenWRT, Fedora, FreeBSD).
+          (openSUSE, Gentoo, OpenWRT, Fedora, NixOS, FreeBSD).
       level: 0.9
     - name: Microsoft Ecosystem
       detail: |
