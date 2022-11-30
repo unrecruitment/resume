@@ -8,6 +8,8 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab import platypus
 from reportlab.lib.styles import getSampleStyleSheet
+from preppy import SafeString
+import markdown as md
 import datetime
 
 pdfmetrics.registerFont(TTFont('dejavu-sans', '/usr/share/fonts/truetype/DejaVuSans.ttf'))
@@ -34,13 +36,14 @@ class Resume:
 
 
     def build(self):
-        self.add(f"{self.data['name']}")
+        self.add(SafeString(f"{self.data['name']}"), style=headline)
         self.add(f"{self.data['headline']}")
         if 'email' in self.data:
             self.add(f"{self.data['email']['username']}@{self.data['email']['domain']}")
         self.add(f"{self.data['homepage']}")
         self.add("\xa0")
         for p in self.data['summary'].split('\n\n'):
+            #self.items.append(md.markdown(p))
             self.add(p)
             self.add("\xa0")
         for work in self.data['experience']:
@@ -57,9 +60,9 @@ class Resume:
             if 'description' in work:
                 self.add(f"{work['description']}")
             self.add("\xa0")
-        for item in self.data['volunteering']:
-            self.add(f"{item}")
-            self.add("\xa0")
+        #for item in self.data['volunteering']:
+        #    self.add(f"{item}")
+        #    self.add("\xa0")
         self.add(platypus.FrameBreak())
         for skill in self.data['skills']:
             self.add(f"{skill['name']}", style=headline)
