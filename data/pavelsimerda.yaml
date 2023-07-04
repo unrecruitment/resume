@@ -1,65 +1,63 @@
 name: Pavel Šimerda
-headline: Software Developer
+headline: Software Design and Development
 location: Prague
 homepage: http://simerda.eu/
 #email:
 #    username: business
 #    domain: pavlix.net
 summary: |
-    Freelance software developer. Rust and Haskell enthusiast.  Working
+    Freelance software developer. Rust and Haskell enthusiast. Working
     with embedded operating systems and network devices. Astounded by eBPF
     debugging and performance profiling in Linux. Training anyone from
-    young children to senior developers.
+    young children to seasoned developers.
 
-    In the upcoming years I am going to work with embedded software
-    companies that understand the value of safe programming and consider
-    switching from C and C++ to Rust. At the same time I can still provide
-    support for C and C++ developers as I did before.
+    I am working with companies that understand the value of safe
+    programming in embedded systems. Let us explore together the value of
+    static typing and compilation into machine code and look at real-time
+    and parallel computing.
 experience:
     - position: Freelance Developer & Consultant
       description: |
-          I've been through different roles and projects before I found my
-          niche. Finally I fell in love with programming languages that
-          translate to machine code and with operating systems code. The
-          “year of change” somewhat accelerated my transition.
+          Software development workshops most often in Czechia, Slovakia
+          and Germany. Working with small industrial companies as well as
+          big Linux players. Consulting, software design and integration,
+          custom development.
       from: 2008-03
     - position: Software Engineer & Maintainer
       company: Red Hat
       description: |
-          My personal goal was to fix various NetworkManager design flaws
-          and make it usable in server environment as well as in
-          development and network engineering setups. At that time I met
-          network developers from SUSE and learned about wicked, their
-          alternative to NetworkManager and invited them to cooperate.
+          Software development in the computer networking field. Debugging
+          and testing of network services. Working on tough customer bug
+          reports. Internet standards and operational issues. IPv6, IPsec,
+          DNSSEC and more.
       from: 2012-05
       to: 2017-04
     - position: Temporary IT Jobs
       description: |
-          I started web development as a volunteer webmaster of the school
-          website. Soon I started working with young entrepreneurs as well
-          as former students. I was an active innovator since the beginning
-          of my career. I introduced Python, PostgreSQL, Subversion and
-          later Git to my co-workers and participated in product
-          architecture discussions.
+          From school volunteering through simple webdesign to development
+          of web backends. Working with young entrepreneurs and other
+          students. Innovation of software stacks. Moving companies from
+          PHP to Python, from MySQL to PostgreSQL, from Subversion to Git
+          and more. Architecture discussions and design.
       from: 2003-09
       to: 2008-02
     - position: Mathematics and CS Tutor
       description: |
-          At times my friends struggled to grasp mathematical and logical
-          concepts in various subjects at school. Later it became part of
-          my business to tutor everyone from young children to pensioners.
+          From helping friends to regular tutoring. Explaining various
+          concepts of mathematics and logic. People of all ages. Later
+          guiding people through the software development process and
+          getting ready for mathematics and computer science exams.
       from: 2001-05
       to: 2015-11
-volunteering:
-    - Coding for kids
-    - Mentoring teachers
-    - Open source advocacy
+    - position: Volunteering
+      description: |
+        Programming lessons for children. Coding and computer science events
+        for schools. Tutoring and other help for Ukrainian refugees. 
 skills:
     - name: Parallel computing
       detail: |
-          Operating systems development, parallel applications, lock-free
-          data structures, locking mechanisms, database transactions,
-          replication, recovery (Linux, PostgreSQL).
+          Threaded computing, lock-free data structures, database
+          transactions, operating system internals.
       level: 0.9
     - name: Network layer development
       detail: |
@@ -68,9 +66,8 @@ skills:
       level: 0.9
     - name: Hardware & Electronics
       detail: |
-          Interested in digital communications, I write hardware drivers
-          and user-space software for Linux. I've started to use Rust
-          for industrial software development.
+          Digital communications, debugging, testing both in software and
+          with an oscilloscope. Hardware drivers and real-time code. Rust.
       level: 0.6
     - name: UNIX / Linux Ecosystem
       detail: |
@@ -79,14 +76,18 @@ skills:
       level: 0.9
     - name: Microsoft Ecosystem
       detail: |
-          Not a big fan of proprietary operating system. I want full
-          control over the system and access to its internals.
+          Occasionally using Windows as a training platform. Interested in
+          C# and F# because of programming language design.
       level: 0.1
+    - name: Apple Ecosystem
+      detail: |
+          Mostly as yet another UNIX system. Interested in Swift due to
+          unique features and the study of language design.
+      level: 0.2
     - name: Programming languages
       detail: |
-          I love machine code, and so I use Rust, C, C++ and might want to
-          try Julia and maybe Haskell. I'm still fluent with Python and I
-          can program in crazy environments like Bash.
+          Languages compiled to machine code. Rust, C, C++, sometimes
+          Haskell, Go and Julia. Still working with Python, Bash and more.
       level: 0.9
     - name: DevOps & Automation
       detail: |
@@ -96,8 +97,8 @@ skills:
       level: 0.8
     - name: Web Frontend
       detail: |
-          NodeJS, React. Occasionally learning but not among my main goals
-          as long as I have more hardware related stuff to work on.
+          NodeJS, React, WebAssembly and more. Mostly to support my
+          activities with compiled languages and embedded systems.
       level: 0.2
 notice: |
     [Legal Notice] Receiving this document does not constitute a job application. Do not
